@@ -1,10 +1,17 @@
+* body{
+    /* display: flex; */
+}
+
+
+
 .image1{
-   width: 450px;
+
+   width: 300px;
    
 } 
  div1{
      box-sizing: border-box; 
-     height: 48px; 
+     height: 20px; 
      line-height: normal; 
      padding: 0 4px; 
      padding-left: 1240px; 
@@ -19,7 +26,7 @@
 
 .input1{
    
-    
+    text-align: center;
 
     background-color: var(--color-searchbox-background);
     border: none;
@@ -27,22 +34,22 @@
     color: var(--color-searchbox-foreground);
     font-family: inherit;
     font-size: inherit;
-    height: 100%;
+    height: 200%;
     outline: 0;
-    
+    width: 200%;
     
 }
 .ancar1{
 
-
-    background-color: var(--color-searchbox-background);
+text-align: center;
+    /* background-color: var(--color-searchbox-background);
     border: none; 
     border-radius: var(--cr-searchbox-border-radius);
-     color: var(--color-searchbox-foreground); 
-    font-family: inherit;
+     color: var(--color-searchbox-foreground);  */
+    /* font-family: inherit;
     font-size: inherit; 
       height: 100%;
-     outline: 0; 
+     outline: 0;  */
 }
 
 .par{
